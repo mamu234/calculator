@@ -29,3 +29,26 @@ var temperature = function(celsius ,fahrenheit){
  var fahrenheit = parseInt(prompt("Enter fahrenheit"));
  var outcome = temperature(celsius,fahrenheit);
  alert(outcome +32);
+
+ //simple calculator that calculates if a number is even or not. 
+ 
+
+
+ var nums = function(even){
+  return even;
+ }
+var even = parseInt(prompt('enter a number'));
+if(even % 2 == 0){
+  alert('number is even');
+
+} else {
+  alert('number is odd');
+}
+
+
+
+
+
+ 
+
+
