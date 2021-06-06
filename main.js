@@ -29,3 +29,13 @@ var temperature = function(celsius ,fahrenheit){
  var outcome = temperature(celsius,fahrenheit);
  alert(outcome +32);
 
+ var nums = function(even){
+  return even;
+ }
+var even = parseInt(prompt('enter a number'));
+if(even % 2 == 0){
+  alert('number is even');
+
+} else {
+  alert('number is odd');
+}
