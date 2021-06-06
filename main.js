@@ -1,5 +1,5 @@
 
-
+//popping up prompt boxes for input and then an alert with the calculated result
 var add = function(number1, number2) {
   return number1 + number2;
 };
@@ -9,6 +9,9 @@ var number2 = parseInt(prompt("Enter another number:"));
 var result = add(number1, number2);
 alert(result);
 
+//write a function that calculates body mass index (BMI) using two arguments. 
+//Then write another function that prompts the user for their height and weight,
+// uses the BMI function and alerts the user of their BMI
 
 var divide = function(height , weight){ 
     return height /weight;
@@ -18,6 +21,7 @@ var weight = parseInt(prompt("Enter your weight"))
 var calculate = divide(height,weight)
 alert(calculate);
 
+//Write a function that converts temperature between Celsius and Fahrenheit.
 var temperature = function(celsius ,fahrenheit){
     return celsius / fahrenheit;
 }
