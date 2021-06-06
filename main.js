@@ -39,3 +39,14 @@ if(even % 2 == 0){
 } else {
   alert('number is odd');
 }
+
+//Using if and else statements, create a simple program 
+//that prompts you to choose between coffee and tea. 
+
+var drink1 = 'coffee';
+var drink2 = 'tea';
+if(drink1 =='coffee'||drink2 =='tea'){
+  prompt('what would you take');
+}else {
+  prompt('not thanks');
+}
