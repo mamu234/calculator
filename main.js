@@ -45,7 +45,8 @@ if(even % 2 == 0){
   alert('number is odd');
 }
 
-
+//Using if and else statements, create a simple
+// program that prompts you to choose between coffee and tea. 
 
 
 
